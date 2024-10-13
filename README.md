@@ -74,10 +74,7 @@ Here's a structured description for your projects:
 - CSS
 - JavaScript
 
-## Future Improvements
 
-- [Any additional features or concepts you plan to add to the projects.]
-- [Potential improvements for existing projects.]
 
 ## Feedback and Contributions
 
