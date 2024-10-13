@@ -51,6 +51,3 @@ Welcome to my repository of JavaScript projects! This is a collection of project
 
 Feel free to explore the projects, and I’d love to hear your feedback or suggestions for improvement. If you'd like to contribute, feel free to fork the repo and submit a pull request.
 
----
-
-You can update the project descriptions, concepts, and add any additional sections relevant to your repository.
