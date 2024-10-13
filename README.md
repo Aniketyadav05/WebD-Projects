@@ -53,7 +53,7 @@ Here's a structured description for your projects:
    - **Description:** A memory game that challenges players to repeat sequences of colors and sounds.  
    - **Concepts Used:** Array management, user input validation, game state management.
 
-11. Project 11: QR Code Generator
+### 11. **Project 11: QR Code Generator**
 - **Description:**  A web-based tool that generates a QR code based on the text input provided by the user. The QR code is dynamically created using a QRCode library, and the user can click a button to generate the code or receive an error message if the input field is empty.
 - **Concepts Used:** 
 DOM Manipulation
@@ -62,6 +62,25 @@ Conditional Logic (Input Validation)
 QR Code generation with an external library
 Dynamic Element Styling and Modification
 
+### 12. **Project 11: Step Progress Bar**
+- **Description:** A step progress bar that visually shows progress as users click through steps using 'Previous' and 'Next' buttons. Each step is represented by an icon, and the progress bar fills as the user moves forward or backward through the steps.
+- **Concepts Used:**
+DOM Manipulation
+Event Listeners
+CSS Transitions for Progress Bar Width
+Conditional Logic for Button States (Enable/Disable based on step)
+Dynamic Class Management for Active States
+
+### 13. **Project: Quiz Website**
+- **Description:** A simple interactive quiz website that presents users with multiple-choice questions. Users can select an answer by clicking on the text options or radio buttons. After submitting their answer, they can see their score and receive feedback on their performance. The quiz includes various questions related to web development.
+
+- **Concepts Used:**
+DOM Manipulation
+Event Listeners
+Conditional Logic for Score Calculation
+Dynamic Content Loading
+Local Storage (if implemented)
+CSS for Styling and Layout
 
 ## How to Run the Projects
 
