@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>VIRTUAL DRUM KIT</h1>
+    <div class="keys">
+        <div class="keys1">
+            <div data-key="81" class="key">
+                <kbd>Q</kbd>
+                <span class="sounds">SHAKER</span>
+            </div>
+            <div data-key="87" class="key">
+                <kbd>W</kbd>
+                <span class="sounds">SNARE</span>
+            </div>
+            <div data-key="69" class="key">
+                <kbd>E</kbd>
+                <span class="sounds">SLAPPER</span>
+            </div>
+            <div data-key="82" class="key">
+                <kbd>R</kbd>
+                <span class="sounds">SNARE</span>
+            </div>
+            <div data-key="84" class="key">
+                <kbd>T</kbd>
+                <span class="sounds">DRY</span>
+            </div>
+            <div data-key="89" class="key">
+                <kbd>Y</kbd>
+                <span class="sounds">RING</span>
+            </div>
+            <div data-key="85" class="key">
+                <kbd>U</kbd>
+                <span class="sounds">SHORT</span>
+            </div>
+            <div data-key="73" class="key">
+                <kbd>I</kbd>
+                <span class="sounds">FLOPPY</span>
+            </div>
+            <div data-key="79" class="key">
+                <kbd>O</kbd>
+                <span class="sounds">SUMO</span>
+            </div>
+            <div data-key="80" class="key">
+                <kbd>P</kbd>
+                <span class="sounds">TOM</span>
+            </div>
+        </div>
+        
+        <div class="keys1">
+            <div data-key="65" class="key">
+                <kbd>A</kbd>
+                <span class="sounds">CLAP</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sounds">ACOUSTIC</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sounds">FAT</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sounds">TAPE</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sounds">COWELL</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sounds">CRASH</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sounds">CRASH</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sounds">HDIGITAL</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sounds">HIHAT</span>
+            </div>
+        </div>
+        <div class="keys1">
+            <div data-key="90" class="key">
+                <kbd>Z</kbd>
+                <span class="sounds">HEAVY</span>
+            </div>
+            <div data-key="88" class="key">
+                <kbd>X</kbd>
+                <span class="sounds">PUNCH</span>
+            </div>
+            <div data-key="67" class="key">
+                <kbd>C</kbd>
+                <span class="sounds">CRUSHED</span>
+            </div>
+            <div data-key="86" class="key">
+                <kbd>V</kbd>
+                <span class="sounds">ELCTRO</span>
+            </div>
+    
+            <div data-key="66" class="key">
+                <kbd>B</kbd>
+                <span class="sounds">ANALOG</span>
+            </div>
+            <div data-key="78" class="key">
+                <kbd>N</kbd>
+                <span class="sounds">OPENHAT</span>
+            </div>
+            <div data-key="77" class="key">
+                <kbd>M</kbd>
+                <span class="sounds">KICK</span>
+            </div>
+           
+            
+        </div>
+        <div class="keys1">
+            <div data-key="32" id="space" class="key">CULTIVATOR</div>
+        </div>
+        
+    </div>
+    <audio data-key="65" src="sound/clap-808.wav"></audio>
+    <audio data-key="66" src="sound/clap-analog.wav"></audio>
+    <audio data-key="67" src="sound/clap-crushed.wav"></audio>
+    <audio data-key="68" src="sound/clap-fat.wav"></audio>
+    <audio data-key="69" src="sound//clap-slapper.wav"></audio>
+    <audio data-key="70" src="sound//clap-tape.wav"></audio>
+    <audio data-key="71" src="sound//cowbell-808.wav"></audio>
+    <audio data-key="72" src="sound//crash-808.wav"></audio>
+    <audio data-key="73" src="sound/kick-floppy.wav"></audio>
+    <audio data-key="74" src="sound//crash-noise.wav"></audio>
+
+    <audio data-key="75" src="sound//hihat-digital.wav"></audio>
+    <audio data-key="76" src="sound/hihat-808.wav"></audio>
+    <audio data-key="77" src="sound/kick-808.wav"></audio>
+    <audio data-key="78" src="sound/openhat-808.wav"></audio>
+    <audio data-key="79" src="sound/snare-sumo.wav"></audio>
+    <audio data-key="80" src="sound/tom-lofi.wav"></audio>
+    <audio data-key="81" src="sound/shaker-analog.wav"></audio>
+    <audio data-key="82" src="sound/snare-modular.wav"></audio>
+    <audio data-key="83" src="sound//tom-acoustic01.wav"></audio>
+
+    <audio data-key="84" src="sound//kick-dry.wav"></audio>
+    <audio data-key="85" src="sound//tom-short.wav"></audio>
+    <audio data-key="86" src="sound/kick-thump.wav"></audio>
+    <audio data-key="87" src="sound//snare-tape.wav"></audio>
+    <audio data-key="88" src="sound/snare-punch.wav"></audio>
+    <audio data-key="89" src="sound//hihat-ring.wav"></audio>
+    <audio data-key="90" src="sound//kick-heavy.wav"></audio>
+
+    <audio data-key="32" src="sound/kick-cultivator.wav"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>

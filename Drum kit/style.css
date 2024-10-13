@@ -1,0 +1,80 @@
+body{
+    background-image: url("concery-wallpaper-festival-party.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+}
+.keys{
+    display: inline-block;
+    padding: 10px;
+    max-width: 100%;
+
+    box-sizing: border-box; 
+    
+}
+.keys1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    /* font-size: 18px; */
+    transition: all 0.07s;
+    text-align: center;
+    color: rgb(49, 168, 248);
+    background: rgba(0, 0,0, 0.4);
+    text-shadow: 0 0 5px black;
+
+}
+.key span {
+    font-size: 8px;
+
+}
+#space {
+    width: 240px; /* Set the width of the box */
+    height: 40px; 
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+    
+}
+.playing {
+    transform: scale(1.1);
+    border-color: greenyellow;
+    box-shadow: 0 0 10px #ffc600;
+    color: aqua;
+    
+}
+kbd{
+    display: block;
+    font-size: 25px;
+}

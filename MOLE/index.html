@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WHACK A MOLE</h1>
+    <h2 id="score">0</h2>
+    <div id="board">
+        
+    </div>
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2>Game Over</h2>
+          <p>Your Score Was: <span id="finalScore"></span></p>
+        </div>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
