@@ -53,6 +53,15 @@ Here's a structured description for your projects:
    - **Description:** A memory game that challenges players to repeat sequences of colors and sounds.  
    - **Concepts Used:** Array management, user input validation, game state management.
 
+11. Project 11: QR Code Generator
+- **Description:**  A web-based tool that generates a QR code based on the text input provided by the user. The QR code is dynamically created using a QRCode library, and the user can click a button to generate the code or receive an error message if the input field is empty.
+- **Concepts Used:** 
+DOM Manipulation
+Event Listeners
+Conditional Logic (Input Validation)
+QR Code generation with an external library
+Dynamic Element Styling and Modification
+
 
 ## How to Run the Projects
 
