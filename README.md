@@ -43,7 +43,13 @@ Here's a structured description for your projects:
    - **Description:** A section that displays user reviews with the ability to navigate through them using previous and next buttons.  
    - **Concepts Used:** DOM manipulation, array methods, event handling.
 
-### 9. **Project 9: Simon Game**  
+
+### 9. **Project 9: Modal Implementation**  
+   - **Description:** A simple modal implementation that displays additional content when a button is clicked and can be closed by a close button.  
+   - **Concepts Used:** DOM manipulation, event handling, class management for UI effects.  
+
+
+### 10. **Project 10: Simon Game**  
    - **Description:** A memory game that challenges players to repeat sequences of colors and sounds.  
    - **Concepts Used:** Array management, user input validation, game state management.
 
