@@ -62,7 +62,7 @@ Conditional Logic (Input Validation)
 QR Code generation with an external library
 Dynamic Element Styling and Modification
 
-### 12. **Project 11: Step Progress Bar**
+### 12. **Project 12: Step Progress Bar**
 - **Description:** A step progress bar that visually shows progress as users click through steps using 'Previous' and 'Next' buttons. Each step is represented by an icon, and the progress bar fills as the user moves forward or backward through the steps.
 - **Concepts Used:**
 DOM Manipulation
@@ -71,7 +71,7 @@ CSS Transitions for Progress Bar Width
 Conditional Logic for Button States (Enable/Disable based on step)
 Dynamic Class Management for Active States
 
-### 13. **Project: Quiz Website**
+### 13. **Project 13: Quiz Website**
 - **Description:** A simple interactive quiz website that presents users with multiple-choice questions. Users can select an answer by clicking on the text options or radio buttons. After submitting their answer, they can see their score and receive feedback on their performance. The quiz includes various questions related to web development.
 
 - **Concepts Used:**
