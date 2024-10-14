@@ -1,0 +1,162 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: greenyellow; /* Neon green background */
+    padding: 20px;
+    color: black;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Ensure it stays above other content */
+    
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+/* Footer styling */
+.footer {
+    
+    background-color: greenyellow;;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Ensure it stays above other content */
+}
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Content wrapper */
+.wrapper {
+    flex: 1;
+     /* Add space to avoid overlap with header and footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button styling */
+.btn {
+    background-color: #1f1f1f;  /* Dark gray */
+    color: #fff;                /* White text */
+    padding: 8px 30px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Subtle glow effect */
+}
+
+.btn:hover {
+    background-color: #fff;  /* Invert background */
+    color: rgb(14, 144, 0);             /* Invert text color */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3); /* Stronger glow effect */
+    transform: scale(1.05);  /* Slight size increase */
+}
+
+
+.btn-secondary {
+    background-color: greenyellow;
+    color:black;
+    font-weight: bolder;
+}
+/* Grade input section */
+.grade-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-control {
+    margin-right: 20px;
+    background-color: #1f1f1f;  /* Dark gray */
+    color: #fff;                /* White text */
+    padding: 8px 6px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+}
+
+/* Results section */
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Table styling */
+table {
+    width: 400px; /* Make the table take the full width */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center align text */
+    border: 1px solid #ddd; /* Add border to cells */
+}
+
+/* Answer section */
+.answer {
+    margin-top: 20px;
+}
+
+#percentage, #percent {
+    margin-top: 10px;
+}
+
+/* Responsive Styling for Mobile View */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .header h1 {
+        font-size: 24px; /* Reduce font size for smaller screens */
+    }
+
+    .wrapper {
+        padding: 80px 10px 40px; /* Adjust padding for content to fit properly */
+    }
+}
+a {
+    
+}

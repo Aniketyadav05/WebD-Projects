@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CGPA Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>CGPA Calculator</h1>
+    </header>
+
+    <!-- Main Wrapper Section -->
+    <div class="wrapper">
+        <h2>Calculate Your CGPA</h2>
+        <div class="grade-input">
+            <div class="grades">
+                <select id="grade" class="form-control">
+                    <option value="">Grade</option>
+                    <option value="11">A++</option>
+                    <option value="10">A+</option>
+                    <option value="9">A</option>
+                    <option value="8">B+</option>
+                    <option value="7">B</option>
+                    <option value="6">C+</option>
+                    <option value="5">C</option>
+                    <option value="4">D+</option>
+                    <option value="3">D</option>
+                    <option value="2">E+</option>
+                    <option value="1">E</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div class="col">
+                <input id="add" class="btn btn-secondary" type="button" value="Add">
+            </div>
+        </div>
+
+        <table id="table" class="table table-bordered display-none">
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- Rows will be added here -->
+            </tbody>
+            <tfoot id="tfoot">
+                <!-- Optional footer can be added here -->
+            </tfoot>
+        </table>
+
+        <div class="results">
+            <div>
+                <input id="calc-gp" class="btn btn-secondary" type="button" value="Calculate">
+            </div>
+            <div>
+                <input id="clear" class="btn" type="button" value="Clear">
+            </div>
+        </div>
+
+        <div class="answer" style="visibility: hidden;">
+            <div id="result" class="result-message"></div>
+            <div id="percent" class="result-message"></div>
+            <button id="percentage" class="btn btn-secondary">Calculate</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2024 CGPA Calculator. Created by <a href="https://www.linkedin.com/in/aniket-yadav-2162ab239/" target="_blank">Aniket Yadav     <i class="fa-solid fa-share"></i></a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

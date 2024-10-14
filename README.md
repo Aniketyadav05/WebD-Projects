@@ -82,6 +82,16 @@ Dynamic Content Loading
 Local Storage (if implemented)
 CSS for Styling and Layout
 
+### 14. **Project 14: CGPA Calculator**
+- **Description:** A simple tool for students to calculate their CGPA. Users select their grades from a dropdown, add them to a list, and calculate their CGPA with one click. The result also shows the equivalent percentage.
+
+- **Concepts Used:**
+  - **DOM Manipulation:** Adding and displaying grades dynamically.
+  - **Form Handling:** Collecting and processing user inputs.
+  - **Event Listeners:** Handling button clicks to add grades and calculate CGPA.
+  - **Conditional Logic:** Calculating CGPA and percentage from inputted grades.
+  - **Responsive Design:** Ensuring proper layout across devices.
+
 ## How to Run the Projects
 
 1. Clone this repository to your local machine:
