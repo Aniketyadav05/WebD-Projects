@@ -5,7 +5,7 @@ Welcome to my repository of JavaScript projects! This is a collection of project
 ## Projects Included
 
 
-Here's a structured description for your projects:
+Here's a structured description for all my projects:
 
 ### 1. **Project 1: Clock**  
    - **Description:** A real-time clock that displays the current time and updates every second.  
