@@ -92,6 +92,25 @@ CSS for Styling and Layout
   - **Conditional Logic:** Calculating CGPA and percentage from inputted grades.
   - **Responsive Design:** Ensuring proper layout across devices.
 
+### 15. **Dynamic Resume Generator**
+
+This project is a resume generator that lets users create a professional resume by filling in form fields. Users can add multiple experiences and qualifications, switch between light and dark themes, and upload a profile picture. The entered data dynamically populates a resume template for easy preview.
+
+- **Features**
+
+- **Dynamic Fields:** Add multiple work experience and academic qualification entries.
+- **Theme Toggle:** Switch between light and dark themes.
+- **Image Upload:** Upload and display a profile picture on the resume.
+- **Live Preview:** View a formatted resume populated with form data.
+
+- **Key Concepts**
+
+- **DOM Manipulation:** Create and insert form elements dynamically.
+- **Event Listeners:** Handle button clicks and theme toggle actions.
+- **Class Management:** Apply styles based on theme selection.
+
+
+
 ## How to Run the Projects
 
 1. Clone this repository to your local machine:

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Resume Generator</title>
+</head>
+
+<body>
+    <div class="container" id="cv-form">
+        <h1 class="text-center my-2">Resume Generator</h1>
+        <p class="text-center">Build Your Resume With Ease</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Personal Information</h3>
+                <div class="form-group">
+                    <label for="nameField">Your Name</label>
+                    <input type="text" id="nameField" class="form-control" placeholder="Enter here">
+                </div>
+                <div class="form-group">
+                    <label for="contactField">Your Contact</label>
+                    <input type="text" id="contactField" class="form-control" placeholder="Enter here">
+                </div>
+                <div class="form-group">
+                    <label for="adressField">Your Adsress</label>
+                    <textarea type="text" id="adressField" class="form-control" placeholder="Enter here"
+                        rows="5"></textarea>
+                </div>
+                <p class="text-secondary">Important Links</p>
+                <div class="form-group">
+                    <label for="LinkedInField">Your LinkedIN</label>
+                    <input type="text" id="LinkedInField" class="form-control" placeholder="Enter here">
+                </div>
+                <div class="form-group">
+                    <label for="GithubField">Your Github</label>
+                    <input type="text" id="GithubField" class="form-control" placeholder="Enter here">
+                </div>
+                <div class="form-group">
+                    <label for="LeetcodeField">Your LeetCode</label>
+                    <input type="text" id="LeetcodeField" class="form-control" placeholder="Enter here">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Professional Information</h3>
+
+                <div class="form-group">
+                    <label for="">Objective</label>
+                    <textarea type="text" class="form-control" placeholder="Enter here" rows="2"
+                        id="ObjectiveField"></textarea>
+                </div>
+
+                <div class="form-group" id="WorkExp">
+                    <label for="">Work Experience</label>
+                    <textarea type="text" class="form-control WeField" placeholder="Enter here" rows="2"></textarea>
+                    <div class="button-container text-center mt-3" id="weButton">
+                        <button onclick="addNewExpButton()" class="button-56 ">Add</button>
+                    </div>
+                </div>
+                <div class="form-group" id="acadQual">
+                    <label for="">Academic Qualification</label>
+                    <textarea type="text" class="form-control EqField" placeholder="Enter here" rows="2"></textarea>
+                    <div class="button-container text-center mt-3" id="aqButton">
+                        <button onclick="addNewAqButton()" class="button-56">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-container text-center mt-3 mb-3 ">
+            <button onclick="generateCV()" class="button-56 btn-lg">Generate Cv</button>
+        </div>
+
+    </div>
+
+    <div class="bg-col" id="cv-template" >
+        <div class="row">
+            <div class="col-md-4 text-center py-5 " id="">
+                <div class="profile-container">
+                    <label for="input-file"><img src="edit.png" class="edit" alt="" >
+                    </label>
+                    <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+                    <img src="profile.jpg" alt="" class="profile img-fluid mt-3" id="profile-img"/>
+                    
+                </div>
+                
+                <div class="container">
+                    <p id="nameT1">ANiket Yadav</p>
+                    <p id="contactT">99999999999</p>
+                    <p id="addressT">Address</p>
+                    <hr />
+                    <p><a id="LinkeinT" href="" target="_blank">Linkedin</a></p>
+                    <p><a id="GithubT" href="" target="_blank">Github</a></p>
+                    <p><a id="LeetCodeT" href="" target="_blank">Leetcode</a> </p>
+
+                </div>
+            </div>
+            <div class="col-md-6 py-5 w-100px" >
+                <h1 class="text-center" style="font-weight: 900;" id="nameT2">Aniket</h1>
+                <div class="card mt-4 bg-col">
+                    <div class="card-header">
+                        <h3>Objective</h3>
+                    </div>
+                    <div class="card-body px-2">
+                        <p id="objectiveT">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus
+                            eum odio debitis
+                            architecto, minima veniam qui, ipsa optio dicta quo similique assumenda, repudiandae vitae
+                            obcaecati sit illo non quaerat?</p>
+                    </div>
+                </div>
+                <div class="card mt-4 bg-col">
+                    <div class="card-header">
+                        <h3>Work Experience</h3>
+                    </div>
+                    <div class="card-body px-2">
+                        <ul id="weT">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-4 ">
+                    <div class="card-header">
+                        <h3>Academic Qualification</h3>
+                    </div>
+                    <div class="card-body px-2">
+                        <ul id="aqT">
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nam!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+        <div class="container mt-3 text-center">
+            <div class="toggle">
+                <input type="checkbox" id="toggle" />
+                <label for="toggle"></label>
+            </div>
+            
+        </div>
+    </div>
+   
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&family=Playwrite+CU:wght@100..400&family=Song+Myung&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    font-family: "Source Code Pro", monospace;
+}
+body {
+    background-color: #f5f7fa;
+    
+}
+body.dark-theme {
+    background-color: #333;
+    color: white;
+}
+body.dark-theme .card-header{
+    background-color: rgb(55, 53, 53);
+    border: 3px solid black;
+}
+.card-header{
+    border: 3px solid black;
+}
+body.dark-theme li {
+    color: black;
+}
+body.dark-theme .card-body{
+    color: black;
+    background-color: #f5f7fa;
+    
+}
+body.dark-theme .edit{
+    filter: invert();
+}
+.card-body{
+    background-color: rgb(55, 53, 53);
+    color: white;
+}
+.profile {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#cv-template{
+    display: none;
+}
+.toggle input[type='checkbox'] {
+    display: none;
+}
+
+.toggle label {
+    background-color: #777;
+    
+    border: 2px solid #555;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    width: 100px;
+    height: 50px;
+}
+.toggle label::after {
+    background-color: #555;
+    border-radius: 50%;
+    content: ' ';
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    transition: all ease-in-out 0.3s;
+    width: 42px;
+    height: 42px;
+    
+}
+.toggle input[type='checkbox']:checked ~ label {
+    background-color: #00a0fc;
+    border-color: #006dc9;
+}
+
+.toggle input[type='checkbox']:checked ~ label::after {
+    background-color: #0054b0;
+    transform: translateX(50px);
+}
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile {
+    display: block;
+}
+
+.edit {
+    position: absolute;
+    top: 10px; /* Adjust position as needed */
+    right: 10px; /* Adjust position as needed */
+    width: 24px; /* Adjust size as needed */
+    cursor: pointer;
+}
+#input-file{
+    display: none;
+}
+
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: rgb(161, 161, 161);
+  border: 2px solid #111;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
