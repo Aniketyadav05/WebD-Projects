@@ -10,18 +10,30 @@ Here's a structured description for all my projects:
 ### 1. **Project 1: Clock**  
    - **Description:** A real-time clock that displays the current time and updates every second.  
    - **Concepts Used:** JavaScript Date object, CSS transformations, setInterval function.
-   <video src="./Previews/clock.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
+
+https://github.com/user-attachments/assets/39a3f517-e9a4-48f8-a3e1-28c2565faf00
+
+
 
 
 ### 2. **Project 2: Color Generator**  
    - **Description:** A tool that generates random hex color codes and applies them to multiple boxes on the page.  
    - **Concepts Used:** DOM manipulation, event listeners, random number generation, CSS styles.
-   <video src="./Previews/color-generator.mp4" controls="controls" style="max-width: 100%; height: auto;">
+ 
+
+
+https://github.com/user-attachments/assets/b25ac0a7-1c04-44f4-b395-5e46e12b45a4
+
 
 ### 3. **Project 3: Counter**  
    - **Description:** A simple counter that increments, decrements, or resets the count based on user interaction with buttons.  
    - **Concepts Used:** Event handling, conditionals, DOM manipulation.
-   <video src="./Previews/Counter.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
+
+https://github.com/user-attachments/assets/6bd6b646-398d-4f72-bcfa-727b49ed1afb
+
+
 
 ### 4. **Project 4: Drum Kit**  **Link**-https://aniprojects-web.github.io/drum-kit/
    - **Description:** An interactive drum kit that plays different sounds when keys are pressed or buttons are clicked.  
@@ -35,29 +47,41 @@ Here's a structured description for all my projects:
 ### 6. **Project 6: Mole Game**  
    - **Description:** A game where players click on moles that pop up randomly to score points within a time limit.  
    - **Concepts Used:** Timers, event listeners, random positioning, game mechanics.
-   <video src="./Previews/Mole.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
 
 ### 7. **Project 7: Navbar**  
    - **Description:** A responsive navigation bar that toggles visibility on smaller screens.  
    - **Concepts Used:** CSS Flexbox, media queries, event handling.
-   <video src="./Previews/navbar.mp4" controls="controls" style="max-width: 100%; height: auto;">
+ 
+
+https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9
+
+
 
 ### 8. **Project 8: Reviews**  
    - **Description:** A section that displays user reviews with the ability to navigate through them using previous and next buttons.  
    - **Concepts Used:** DOM manipulation, array methods, event handling.
-   <video src="./Previews/reviews.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
 
 
 ### 9. **Project 9: Modal Implementation**  
    - **Description:** A simple modal implementation that displays additional content when a button is clicked and can be closed by a close button.  
    - **Concepts Used:** DOM manipulation, event handling, class management for UI effects. 
-   <video src="./Previews/modal.mp4" controls="controls" style="max-width: 100%; height: auto;"> 
+  
+
+https://github.com/user-attachments/assets/d065b149-8993-40bb-a57c-eafa43169594
+
+
 
 
 ### 10. **Project 10: Simon Game**  
    - **Description:** A memory game that challenges players to repeat sequences of colors and sounds.  
    - **Concepts Used:** Array management, user input validation, game state management.
-   <video src="./Previews/SImon.mp4" controls="controls" style="max-width: 100%; height: auto;">
+   
+
+https://github.com/user-attachments/assets/4b034b48-1100-47c8-858f-aef941da5c34
+
+
 
 ### 11. **Project 11: QR Code Generator** **Link**-https://aniprojects-web.github.io/QR-generator/
 - **Description:**  A web-based tool that generates a QR code based on the text input provided by the user. The QR code is dynamically created using a QRCode library, and the user can click a button to generate the code or receive an error message if the input field is empty.
@@ -76,7 +100,11 @@ Here's a structured description for all my projects:
    CSS Transitions for Progress Bar Width
    Conditional Logic for Button States (Enable/Disable based on step)
    Dynamic Class Management for Active States
-   <video src="./Previews/Progress-bar.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
+
+https://github.com/user-attachments/assets/90b0bc7a-d65e-4efb-b6fc-888c7fee5e17
+
+
 
 ### 13. **Project 13: Quiz Website**
 - **Description:** A simple interactive quiz website that presents users with multiple-choice questions. Users can select an answer by clicking on the text options or radio buttons. After submitting their answer, they can see their score and receive feedback on their performance. The quiz includes various questions related to web development.
@@ -88,7 +116,11 @@ Here's a structured description for all my projects:
    Dynamic Content Loading
    Local Storage (if implemented)
    CSS for Styling and Layout
-   <video src="./Previews/QUiz.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  
+
+https://github.com/user-attachments/assets/c13afa0a-87ac-4adc-aa93-584c07c2debe
+
+
 
 ### 14. **Project 14: CGPA Calculator** **Link**-https://aniprojects-web.github.io/rtucgpacalculator/
 - **Description:** A simple tool for students to calculate their CGPA. Users select their grades from a dropdown, add them to a list, and calculate their CGPA with one click. The result also shows the equivalent percentage.
