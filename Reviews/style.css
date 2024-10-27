@@ -10,7 +10,10 @@ Fonts
 Variables
 ===============
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kalam:wght@300;400;700&family=Playwrite+CU:wght@100..400&family=Song+Myung&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    font-family: "Source Code Pro", monospace;
+}
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -72,6 +75,9 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul {
   list-style-type: none;
@@ -93,6 +99,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
+  
   font-size: 2rem;
 }
 h3 {

@@ -77,7 +77,7 @@ function generateCV() {
 
     document.getElementById('cv-template').style.display = "block";
     document.getElementById('cv-form').style.display = "none";
-    let profile = document.gebyid('profile-img');
+    let profile = document.getElementById('profile-img');
     let inputFile = document.getElementById('input-file')
     inputFile.onchange = function () {
         profile.src = URL.createObjectURL(inputFile.files[0])
