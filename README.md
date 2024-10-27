@@ -49,12 +49,16 @@ https://github.com/user-attachments/assets/6bd6b646-398d-4f72-bcfa-727b49ed1afb
    - **Concepts Used:** Timers, event listeners, random positioning, game mechanics.
   
 
+https://github.com/user-attachments/assets/7d8a2f50-5482-4363-8d8c-8e759e105540
+
+
+
 ### 7. **Project 7: Navbar**  
    - **Description:** A responsive navigation bar that toggles visibility on smaller screens.  
    - **Concepts Used:** CSS Flexbox, media queries, event handling.
  
-
-https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9
+ 
+ https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9
 
 
 
@@ -62,6 +66,10 @@ https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9
    - **Description:** A section that displays user reviews with the ability to navigate through them using previous and next buttons.  
    - **Concepts Used:** DOM manipulation, array methods, event handling.
   
+
+https://github.com/user-attachments/assets/e7149a91-fdc9-4c31-8a9b-79fbc2d96e7f
+
+
 
 
 ### 9. **Project 9: Modal Implementation**  
