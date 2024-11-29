@@ -155,6 +155,22 @@ This project is a resume generator that lets users create a professional resume 
    - **Event Listeners:** Handle button clicks and theme toggle actions.
    - **Class Management:** Apply styles based on theme selection.
 
+### 16. **Project 14: Code Editor Website**  
+- **Description:** A basic code editor website that allows users to write and execute HTML, CSS, and JavaScript code in real time. The interface includes three separate text areas for HTML, CSS, and JavaScript code input and an output area to display the compiled result. Users can modify their code and see live updates in the output area. This project simulates the functionality of lightweight online code editors like CodePen or JSFiddle.  
+
+- **Concepts Used:**  
+  - **DOM Manipulation:** For dynamically updating the output area based on user input.  
+  - **Event Listeners:** To detect changes in the code input fields and trigger updates in real time.  
+  - **Iframe for Live Preview:** Embedding the output using an iframe element to render the combined HTML, CSS, and JavaScript.  
+  - **String Interpolation:** For combining HTML, CSS, and JS code into a single HTML structure.  
+  - **Styling with CSS:** For creating a clean and user-friendly layout.  
+  - **JavaScript Logic:** To manage live compilation and dynamic updates.  
+
+
+
+Uploading Recording 2024-11-29 142621.mp4…
+
+
 
 
 ## How to Run the Projects
