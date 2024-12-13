@@ -16,13 +16,13 @@ Here's a structured description for all my projects:
    - **Description:** A tool that generates random hex color codes and applies them to multiple boxes on the page.  
    - **Concepts Used:** DOM manipulation, event listeners, random number generation, CSS styles.
    
-   ![Color Generator](https://github.com/user-attachments/assets/b25ac0a7-1c04-44f4-b395-5e46e12b45a4)
+   https://github.com/user-attachments/assets/b25ac0a7-1c04-44f4-b395-5e46e12b45a4
 
 ### 3. **Project 3: Counter ➕➖**  
    - **Description:** A simple counter that increments, decrements, or resets the count based on user interaction with buttons.  
    - **Concepts Used:** Event handling, conditionals, DOM manipulation.
   
-   ![Counter](https://github.com/user-attachments/assets/6bd6b646-398d-4f72-bcfa-727b49ed1afb)
+   https://github.com/user-attachments/assets/6bd6b646-398d-4f72-bcfa-727b49ed1afb
 
 ### 4. **Project 4: Drum Kit 🥁**  **Link**- [Drum Kit](https://aniprojects-web.github.io/drum-kit/)
    - **Description:** An interactive drum kit that plays different sounds when keys are pressed or buttons are clicked.  
