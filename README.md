@@ -10,7 +10,7 @@ Here's a structured description for all my projects:
    - **Description:** A real-time clock that displays the current time and updates every second.  
    - **Concepts Used:** JavaScript Date object, CSS transformations, setInterval function.
   
-   ![Clock](https://github.com/user-attachments/assets/39a3f517-e9a4-48f8-a3e1-28c2565faf00)
+   https://github.com/user-attachments/assets/39a3f517-e9a4-48f8-a3e1-28c2565faf00
 
 ### 2. **Project 2: Color Generator 🎨**  
    - **Description:** A tool that generates random hex color codes and applies them to multiple boxes on the page.  
@@ -36,31 +36,31 @@ Here's a structured description for all my projects:
    - **Description:** A game where players click on moles that pop up randomly to score points within a time limit.  
    - **Concepts Used:** Timers, event listeners, random positioning, game mechanics.
   
-   ![Mole Game](https://github.com/user-attachments/assets/7d8a2f50-5482-4363-8d8c-8e759e105540)
+   https://github.com/user-attachments/assets/7d8a2f50-5482-4363-8d8c-8e759e105540
 
 ### 7. **Project 7: Navbar 🌐**  
    - **Description:** A responsive navigation bar that toggles visibility on smaller screens.  
    - **Concepts Used:** CSS Flexbox, media queries, event handling.
   
-   ![Navbar](https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9)
+   https://github.com/user-attachments/assets/e3c9b94b-1797-4016-b210-0daf37c35dd9
 
 ### 8. **Project 8: Reviews 📝**  
    - **Description:** A section that displays user reviews with the ability to navigate through them using previous and next buttons.  
    - **Concepts Used:** DOM manipulation, array methods, event handling.
   
-   ![Reviews](https://github.com/user-attachments/assets/e7149a91-fdc9-4c31-8a9b-79fbc2d96e7f)
+   https://github.com/user-attachments/assets/e7149a91-fdc9-4c31-8a9b-79fbc2d96e7f
 
 ### 9. **Project 9: Modal Implementation 🗨️**  
    - **Description:** A simple modal implementation that displays additional content when a button is clicked and can be closed by a close button.  
    - **Concepts Used:** DOM manipulation, event handling, class management for UI effects.  
   
-   ![Modal Implementation](https://github.com/user-attachments/assets/d065b149-8993-40bb-a57c-eafa43169594)
+   https://github.com/user-attachments/assets/d065b149-8993-40bb-a57c-eafa43169594
 
 ### 10. **Project 10: Simon Game 🔊**  
    - **Description:** A memory game that challenges players to repeat sequences of colors and sounds.  
    - **Concepts Used:** Array management, user input validation, game state management.
   
-   ![Simon Game](https://github.com/user-attachments/assets/4b034b48-1100-47c8-858f-aef941da5c34)
+   https://github.com/user-attachments/assets/4b034b48-1100-47c8-858f-aef941da5c34
 
 ### 11. **Project 11: QR Code Generator 📲** **Link**- [QR Code Generator](https://aniprojects-web.github.io/QR-generator/)
 - **Description:** A web-based tool that generates a QR code based on the text input provided by the user. The QR code is dynamically created using a QRCode library, and the user can click a button to generate the code or receive an error message if the input field is empty.
@@ -80,7 +80,7 @@ Here's a structured description for all my projects:
    Conditional Logic for Button States (Enable/Disable based on step)  
    Dynamic Class Management for Active States
   
-   ![Step Progress Bar](https://github.com/user-attachments/assets/90b0bc7a-d65e-4efb-b6fc-888c7fee5e17)
+   https://github.com/user-attachments/assets/90b0bc7a-d65e-4efb-b6fc-888c7fee5e17
 
 ### 13. **Project 13: Quiz Website ❓**
 - **Description:** A simple interactive quiz website that presents users with multiple-choice questions. Users can select an answer by clicking on the text options or radio buttons. After submitting their answer, they can see their score and receive feedback on their performance. The quiz includes various questions related to web development.
@@ -92,7 +92,7 @@ Here's a structured description for all my projects:
    Local Storage (if implemented)  
    CSS for Styling and Layout
   
-   ![Quiz Website](https://github.com/user-attachments/assets/c13afa0a-87ac-4adc-aa93-584c07c2debe)
+   https://github.com/user-attachments/assets/c13afa0a-87ac-4adc-aa93-584c07c2debe
 
 ### 14. **Project 14: CGPA Calculator 📊** **Link**- [CGPA Calculator](https://aniprojects-web.github.io/rtucgpacalculator/)
 - **Description:** A simple tool for students to calculate their CGPA. Users select their grades from a dropdown, add them to a list, and calculate their CGPA with one click. The result also shows the equivalent percentage.
