@@ -1,7 +1,3 @@
-Here’s the updated version with emojis added to make it more engaging:
-
----
-
 # JavaScript Practice Projects 🚀
 
 Welcome to my repository of JavaScript projects! This is a collection of projects I created while practicing and learning JavaScript. Each project explores different concepts and techniques in JavaScript, helping to improve my understanding of the language and its capabilities.
